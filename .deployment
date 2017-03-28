@@ -1,2 +1,2 @@
 [config]
-command = deploy.cmd
+command = powershell -ExecutionPolicy ByPass -File build.ps1 -target Restore
